@@ -1,0 +1,75 @@
+.vote-container {
+  padding-top: 50px;
+  background-color: #001124;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  .vote-content {
+    margin-top: 10px;
+
+    .position {
+      width: 100%;
+      margin-top: 30px;
+      // height: 300px;
+      transition: height 0.3s ease, opacity 0.3s ease;
+      //background-color: white;
+      .title {
+        height: 50px;
+        background: linear-gradient(
+          90deg,
+          rgba(1, 95, 199, 0.9) 0%,
+          rgba(255, 255, 255, 0.72) 100%
+        );
+        font-weight: 800px;
+        font-size: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+        padding-left: 20px;
+        color: white;
+      }
+      .title-icon {
+        position: absolute;
+        right: 20px;
+        padding: 10px;
+      }
+      .body {
+        justify-content: space-around;
+        margin-top: 15px;
+
+        a {
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 20px;
+          color: #001124;
+        }
+        .image {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 250px;
+          background-color: #f7f7f7;
+          border-radius: 20px;
+        }
+
+        .name {
+          // position: absolute;
+          display: flex;
+          justify-content: center;
+          width: 250px;
+          height: 30px;
+          background: rgba(174, 174, 174, 0.35);
+          backdrop-filter: blur(2px);
+          // /* Note: backdrop-filter has minimal browser support */
+          border-radius: 0px 0px 20px 20px;
+          // top: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.header-container {
+  background-color: #001124;
+  position: fixed;
+  z-index: 10;
+
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    //gap: 60px;
+    align-items: center;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 60px;
+    text-decoration: none;
+  }
+
+  //   li a:hover:not(.active) {
+  //     background-color: white;
+  //     color: #001124;
+  //   }
+
+  .active {
+    background-color: #04aa6d;
+  }
+  button {
+    width: 140px;
+    height: 34px;
+
+    background: linear-gradient(90deg, #015fc7 0%, #002e61 100%);
+    border-radius: 5px;
+
+    font-family: 'FS Magistral';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #ffffff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .vote {
+    color: white;
+    text-decoration: none;
+    padding: 0 !important;
+  }
+}

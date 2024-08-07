@@ -1,0 +1,60 @@
+.register-container {
+  background-color: #001124;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .register-content {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-left {
+      width: 50%;
+    }
+
+    .content-right {
+      color: white;
+      font-family: 'FS Magistral';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title {
+        font-family: 'FS Magistral';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+      }
+      .body {
+        width: 100%;
+        input {
+          padding: 6px 10px;
+          width: 400px;
+        }
+      }
+    }
+  }
+  button {
+    width: 140px;
+    height: 34px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #015fc7 0%, #002e61 100%);
+    border-radius: 5px;
+
+    font-family: 'FS Magistral';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #ffffff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
