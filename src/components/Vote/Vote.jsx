@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { Link } from 'react-router-dom';
@@ -43,12 +42,16 @@ function Vote() {
             <div className="title">
               TỔNG BÍ THƯ
               <div className="title-icon" onClick={tooglePosition1}>
-                {displayPosition1?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition1 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition1 && (
               <div className="d-flex body">
-                <Link to='/profile1' className="image">
+                <Link to="/profile1" className="image">
                   <div className="">
                     <Img2 />
                   </div>
@@ -64,17 +67,20 @@ function Vote() {
             )}
           </div>
 
-         
           <div className="position">
             <div className="title">
               CHỦ TỊCH NƯỚC
               <div className="title-icon" onClick={tooglePosition2}>
-                {displayPosition2?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition2 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition2 && (
               <div className="d-flex body">
-                  <Link to='/profile1' className="image">
+                <Link to="/profile1" className="image">
                   <div className="">
                     <Img2 />
                   </div>
@@ -94,7 +100,11 @@ function Vote() {
             <div className="title">
               PHÓ CHỦ TỊCH NƯỚC
               <div className="title-icon" onClick={tooglePosition3}>
-                {displayPosition3?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition3 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition3 && (
@@ -119,12 +129,16 @@ function Vote() {
             <div className="title">
               CHỦ TỊCH QUỐC HỘI
               <div className="title-icon" onClick={tooglePosition4}>
-                {displayPosition4?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition4 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition4 && (
               <div className="d-flex body">
-                  <Link to='/profile1' className="image">
+                <Link to="/profile1" className="image">
                   <div className="">
                     <Img2 />
                   </div>
@@ -144,12 +158,16 @@ function Vote() {
             <div className="title">
               PHÓ CHỦ TỊCH QUỐC HỘI
               <div className="title-icon" onClick={tooglePosition5}>
-                {displayPosition5?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition5 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition5 && (
               <div className="d-flex body">
-                  <Link to='/profile1' className="image">
+                <Link to="/profile1" className="image">
                   <div className="">
                     <Img2 />
                   </div>
@@ -167,14 +185,18 @@ function Vote() {
 
           <div className="position">
             <div className="title">
-             THỦ TƯỚNG CHÍNH PHỦ
+              THỦ TƯỚNG CHÍNH PHỦ
               <div className="title-icon" onClick={tooglePosition6}>
-                {displayPosition6?<IoIosArrowUp color='black' />   : <IoIosArrowDown color='black' />}               
+                {displayPosition6 ? (
+                  <IoIosArrowUp color="black" />
+                ) : (
+                  <IoIosArrowDown color="black" />
+                )}
               </div>
             </div>
             {displayPosition6 && (
               <div className="d-flex body">
-                  <Link to='/profile1' className="image">
+                <Link to="/profile1" className="image">
                   <div className="">
                     <Img2 />
                   </div>

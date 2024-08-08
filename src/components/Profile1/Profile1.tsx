@@ -1,13 +1,23 @@
-import React from 'react';
-import { toast } from 'react-toastify';
+import React, { useState } from 'react';
 import Img2 from '../../assets/img2';
 import Header from '../Header/Header';
+import Modal from '../Modal/Modal';
 import './Profile1.scss';
 
 function Profile1() {
-  const submit = () => {
-    toast.success('Bầu cử thành công !');
+  const [isShowModal, setIsShowModal] = useState(false);
+
+  const openModal = () => {
+    setIsShowModal(true);
   };
+
+  const closeModal = () => {
+    setIsShowModal(false);
+  };
+
+  // const submit = () => {
+  //   toast.success('Bầu cử thành công !');
+  // };
   return (
     <>
       <Header />
@@ -52,9 +62,11 @@ function Profile1() {
           </div>
         </div>
         <div className="submit">
-          <button onClick={submit}>BẦU CỬ</button>
+          <button onClick={openModal}>BẦU CỬ</button>
         </div>
       </div>
+
+      <Modal isOpen={isShowModal} onClose={closeModal} />
     </>
   );
 }

@@ -60,4 +60,11 @@
     text-decoration: none;
     padding: 0 !important;
   }
+
+  .count {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }
