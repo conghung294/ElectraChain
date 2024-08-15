@@ -34,9 +34,9 @@
   //     color: #001124;
   //   }
 
-  .active {
-    background-color: #04aa6d;
-  }
+  // .active {
+  //   background-color: #04aa6d;
+  // }
   button {
     width: 140px;
     height: 34px;
@@ -67,4 +67,16 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.header-container ul li a {
+  text-decoration: none;
+}
+
+.header-container ul li.active a {
+  text-decoration: underline; // Gạch chân khi liên kết được active
+}
+
+.header-container ul li.active button {
+  text-decoration: underline; // Gạch chân khi nút được active
 }
