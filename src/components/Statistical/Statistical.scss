@@ -1,0 +1,17 @@
+.st-container {
+  background-color: #001124;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .st-content {
+    width: 70vw;
+    height: 70vh;
+    padding: 20px;
+    // background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

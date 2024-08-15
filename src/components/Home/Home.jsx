@@ -1,15 +1,36 @@
+/* eslint-disable no-unused-vars */
+import { BarElement, CategoryScale, Chart, Legend, LinearScale, Title, Tooltip } from 'chart.js';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import Header from '../Header/Header';
 import ProgressBar from '../ProgressBar/ProgressBar';
 import './Home.scss';
 
+Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 function Home() {
-  // const data = [
-  //   { id: '01', province: 'Hà Nội', percentage: 46, color: '#FFA500' },
-  //   { id: '02', province: 'Quảng Ninh', percentage: 17, color: '#00CED1' },
-  //   { id: '03', province: 'Thành phố Hồ Chí Minh', percentage: 19, color: '#1E90FF' },
-  //   { id: '04', province: 'Thanh Hoá', percentage: 29, color: '#DDA0DD' },
-  // ];
+  const data = {
+    labels: ['January', 'February', 'March'],
+    datasets: [
+      {
+        label: 'Dataset 1',
+        data: [10, 20, 30],
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+      },
+    ],
+  };
+
+  const options = {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'Sample Horizontal Bar Chart',
+      },
+    },
+  };
   return (
     <>
       <Header />

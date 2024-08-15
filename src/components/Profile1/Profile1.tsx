@@ -31,7 +31,7 @@ function Profile1() {
               <div className="name">ỨNG CỬ VIÊN</div>
             </div>
             <div className="mt-4 blue-color">HỌ VÀ TÊN</div>
-            <div className="mt-1">TÔ LÂM</div>
+            <div className="mt-1">People 1</div>
             <div className="mt-3 blue-color">NGÀY THÁNG NĂM SINH</div>
             <div>10/7/1957</div>
             <div className="mt-3 blue-color">QUÊ QUÁN</div>

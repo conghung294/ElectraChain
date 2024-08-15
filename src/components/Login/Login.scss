@@ -52,4 +52,19 @@
       font-weight: 600;
     }
   }
+  .iconLogin {
+    background-color: #718885;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+
+  .publicKey {
+    margin-left: 10px;
+    width: 196px !important;
+    height: 100%;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+  }
 }

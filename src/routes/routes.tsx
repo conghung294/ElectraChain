@@ -6,6 +6,7 @@ import News from '../components/News/News';
 import PersonalInfo from '../components/PersonalInfo/PersonalInfo';
 import Profile1 from '../components/Profile1/Profile1';
 import Register from '../components/Register/Register';
+import Statistical from '../components/Statistical/Statistical';
 import Verify from '../components/Verify/Verify';
 import Vote from '../components/Vote/Vote';
 
@@ -21,6 +22,7 @@ function AppRoutes() {
         <Route path="/register" Component={Register} />
         <Route path="/verify" Component={Verify} />
         <Route path="/profile1" Component={Profile1} />
+        <Route path="/statistical" Component={Statistical} />
       </Routes>
     </>
   );

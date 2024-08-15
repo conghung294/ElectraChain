@@ -19,6 +19,9 @@ function Header() {
             <Link to="/home">TRANG CHỦ</Link>
           </li>
           <li>
+            <Link to="/statistical">THỐNG KÊ</Link>
+          </li>
+          <li>
             <Link to="/news">TIN TỨC</Link>
           </li>
           <li>
