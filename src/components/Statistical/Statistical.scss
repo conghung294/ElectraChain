@@ -4,14 +4,71 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  .st-body {
+    margin-top: 40px;
+    padding-left: 60px;
+  }
   .st-content {
     width: 70vw;
-    height: 70vh;
+    height: 80vh;
     padding: 20px;
     // background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    .person {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .image {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background: url('../../assets/user.png') center / cover no-repeat;
+      border: 1px solid #fff;
+    }
+    .image1 {
+      background: url('../../assets/user.png') center / cover no-repeat;
+    }
+    .image2 {
+      background: url('../../assets/user2.jpg') center / cover no-repeat;
+    }
+    .image3 {
+      background: url('../../assets/user2.png') center / cover no-repeat;
+    }
+    .image4 {
+      background: url('../../assets/user3.jfif') center / cover no-repeat;
+    }
+    .image5 {
+      background: url('../../assets/user4.jfif') center / cover no-repeat;
+    }
+    .image6 {
+      background: url('../../assets/user5.jfif') center / cover no-repeat;
+    }
+    .image7 {
+      background: url('../../assets/user6.jfif') center / cover no-repeat;
+    }
+    .image8 {
+      background: url('../../assets/user1.png') center / cover no-repeat;
+    }
+    .image9 {
+      background: url('../../assets/user7.png') center / cover no-repeat;
+    }
+    .image10 {
+      background: url('../../assets/user8.jfif') center / cover no-repeat;
+    }
+  }
+  .content-left {
+    width: 20%;
+  }
+  .content-right {
+    width: 75%;
+    border-left: 1px solid #fff;
+    margin-left: 10px;
+    padding: 0 0 10px 0;
   }
 }

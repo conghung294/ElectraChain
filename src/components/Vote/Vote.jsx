@@ -55,13 +55,13 @@ function Vote() {
                   <div className="">
                     <Img2 />
                   </div>
-                  <div className="name">People 1</div>
+                  <div className="name">Nguyễn Văn A</div>
                 </Link>
                 <Link className="image">
                   <div className="">
                     <Img1 />
                   </div>
-                  <div className="name">People 2</div>
+                  <div className="name">Nguyễn Văn B</div>
                 </Link>
               </div>
             )}
@@ -84,7 +84,7 @@ function Vote() {
                   <div className="">
                     <Img2 />
                   </div>
-                  <div className="name">People 1</div>
+                  <div className="name">Nguyễn Văn A</div>
                 </Link>
                 <Link className="image">
                   <div className="">
@@ -142,13 +142,13 @@ function Vote() {
                   <div className="">
                     <Img2 />
                   </div>
-                  <div className="name">People 1</div>
+                  <div className="name">Nguyễn Văn A</div>
                 </Link>
                 <Link className="image">
                   <div className="">
                     <Img1 />
                   </div>
-                  <div className="name">People 2</div>
+                  <div className="name">Nguyễn Văn B</div>
                 </Link>
               </div>
             )}
@@ -171,13 +171,13 @@ function Vote() {
                   <div className="">
                     <Img2 />
                   </div>
-                  <div className="name">People 1</div>
+                  <div className="name">Nguyễn Văn A</div>
                 </Link>
                 <Link className="image">
                   <div className="">
                     <Img1 />
                   </div>
-                  <div className="name">People 2</div>
+                  <div className="name">Nguyễn Văn B</div>
                 </Link>
               </div>
             )}
@@ -200,13 +200,13 @@ function Vote() {
                   <div className="">
                     <Img2 />
                   </div>
-                  <div className="name">People 1</div>
+                  <div className="name">Nguyễn Văn A</div>
                 </Link>
                 <Link className="image">
                   <div className="">
                     <Img1 />
                   </div>
-                  <div className="name">People 2</div>
+                  <div className="name">Nguyễn Văn B</div>
                 </Link>
               </div>
             )}
